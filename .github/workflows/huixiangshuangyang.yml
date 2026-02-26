@@ -1,0 +1,26 @@
+name: huixiangshuangyang
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '37 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: huixiangshuangyang
+        env:
+          h4070: ${{ secrets.h4070 }}
+        run: |
+          echo $h4070 | jq -r .dyd979 | /bin/bash
+          echo $pha88689 | jq -r .zrtr6 | /bin/bash
+          echo $rr74280 | jq -r .b38 | /bin/bash
+          echo $zbl7 | jq -r .erd646 | /bin/bash
+          echo $jgsr43859 | jq -r .gbq301 | /bin/bash
+          echo $qwspx28 | jq -r .rnb717 | /bin/bash
+          echo $pmre93072 | jq -r .jr44178 | /bin/bash
+          echo $yd27562 | jq -r .qa17 | /bin/bash
+          echo $adksw84 | jq -r .mamkv228 | /bin/bash
+
